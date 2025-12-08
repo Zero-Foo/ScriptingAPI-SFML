@@ -22,8 +22,10 @@ class Script{
         bool methodeExist(const std::string& className, const std::string& methodeName);
 
         int findClassIndex(const std::string& className);
-
         void build();
+
+        void prepareToExport();
+
     private:
         Project* project;
 

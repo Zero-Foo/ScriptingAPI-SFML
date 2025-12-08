@@ -113,12 +113,15 @@ void Script::build()
         hFile << std::endl;
         for(int i = 0; i < classes.size(); i++){
             // Classes
-            hFile << "class " << classes[i] << "{" << std::endl;
+            hFile << "class " << classes[i] << " : public Object {" << std::endl;
             hFile << "public:" << std::endl;
 
             //Methode
             for(auto methode : methodes[i]){
-                hFile << "\tvoid " << methode << ";" << std::endl;
+                hFile << "\tvoid " << methode;
+                if(methode == "update()" || methode == "start()" || methode == "render()")
+                    hFile << " override";
+                hFile << ";" << std::endl;
             }
 
             hFile << "};\n" << std::endl;;
@@ -148,5 +151,18 @@ void Script::build()
             cppFile << "void " << func << "{\n" << std::endl;
             cppFile << "}\n" << std::endl;
         }
+    }
+}
+
+void Script::prepareToExport()
+{
+    if(std::filesystem::exists(("./"+project->getName()+"/function_exporter.h"))){
+        std::ofstream exportFile(("./"+project->getName()+"/function_exporter.h").c_str(), std::ios_base::app);
+        exportFile << std::endl;
+        for(auto c : classes)
+            exportFile << "CREATEOBJECT(" << c << ")";
+        exportFile.close();
+    }else{
+        std::cerr << "[ERROR] : " << ("./"+project->getName()+"/function_exporter.h") << " not found" << std::endl;
     }
 }

@@ -9,6 +9,9 @@ Project::Project(const std::string& projectEmplacement, const std::string& proje
 Project& Project::create()
 {
     if(std::filesystem::create_directories((emplacement.string()+"/"+name).c_str())){
+        if(!std::filesystem::create_directories((emplacement.string()+"/"+name+"/cmake").c_str())){
+            std::cerr << "[ERROR] : " << (emplacement.string()+"/"+name+"/cmake").c_str() << " can't be created..." << std::endl;
+        }
         if(!std::filesystem::create_directories((emplacement.string()+"/"+name+"/scripts").c_str())){
             std::cerr << "[ERROR] : " << (emplacement.string()+"/"+name+"/scripts").c_str() << " can't be created..." << std::endl;
         }
@@ -23,6 +26,8 @@ Project& Project::create()
 
 void Project::build()
 {
+    std::system("cmake -G Ninja -S ./Project -B cmake");
+    std::system("ninja -C cmake");
 }
 
 std::string Project::getName()

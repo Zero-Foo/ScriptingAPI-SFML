@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject
+# Install script for directory: C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

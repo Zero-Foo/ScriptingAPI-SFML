@@ -1,0 +1,16 @@
+{
+   "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\exemple\\OneObject\\One-Object.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}\\exemple\\OneObject\\",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+    ]
+}

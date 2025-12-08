@@ -34,13 +34,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/e.chaix/Desktop/ScriptingAPI/build/
+cmake_ninja_workdir = C$:/Users/babal/source/repos/ScriptingAPI/build/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -51,7 +51,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\e.chaix\Desktop\ScriptingAPI -BC:\Users\e.chaix\Desktop\ScriptingAPI\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\babal\source\repos\ScriptingAPI -BC:\Users\babal\source\repos\ScriptingAPI\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -60,7 +60,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/e.chaix/Desktop/ScriptingAPI/CMakeLists.txt
+# C:/Users/babal/source/repos/ScriptingAPI/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -72,29 +72,23 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_One-Object: phony || cmake_object_order_depends_target_Scripting-API
 
-build exemple/OneObject/CMakeFiles/One-Object.dir/src/main.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/src/main.cpp || cmake_object_order_depends_target_One-Object
+build exemple/OneObject/CMakeFiles/One-Object.dir/src/main.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/src/main.cpp || cmake_object_order_depends_target_One-Object
   DEP_FILE = exemple\OneObject\CMakeFiles\One-Object.dir\src\main.cpp.obj.d
-  INCLUDES = -IC:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/include -IC:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/include
+  INCLUDES = -IC:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/include -IC:/Users/babal/source/repos/ScriptingAPI/scripting-api/include
   OBJECT_DIR = exemple\OneObject\CMakeFiles\One-Object.dir
   OBJECT_FILE_DIR = exemple\OneObject\CMakeFiles\One-Object.dir\src
-  TARGET_COMPILE_PDB = exemple\OneObject\CMakeFiles\One-Object.dir\
-  TARGET_PDB = C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.pdb
 
-build exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/project.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/src/project.cpp || cmake_object_order_depends_target_One-Object
+build exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/project.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/src/project.cpp || cmake_object_order_depends_target_One-Object
   DEP_FILE = exemple\OneObject\CMakeFiles\One-Object.dir\__\__\scripting-api\src\project.cpp.obj.d
-  INCLUDES = -IC:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/include -IC:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/include
+  INCLUDES = -IC:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/include -IC:/Users/babal/source/repos/ScriptingAPI/scripting-api/include
   OBJECT_DIR = exemple\OneObject\CMakeFiles\One-Object.dir
   OBJECT_FILE_DIR = exemple\OneObject\CMakeFiles\One-Object.dir\__\__\scripting-api\src
-  TARGET_COMPILE_PDB = exemple\OneObject\CMakeFiles\One-Object.dir\
-  TARGET_PDB = C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.pdb
 
-build exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/script.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/src/script.cpp || cmake_object_order_depends_target_One-Object
+build exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/script.cpp.obj: CXX_COMPILER__One-Object_unscanned_ C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/src/script.cpp || cmake_object_order_depends_target_One-Object
   DEP_FILE = exemple\OneObject\CMakeFiles\One-Object.dir\__\__\scripting-api\src\script.cpp.obj.d
-  INCLUDES = -IC:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/include -IC:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/include
+  INCLUDES = -IC:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/include -IC:/Users/babal/source/repos/ScriptingAPI/scripting-api/include
   OBJECT_DIR = exemple\OneObject\CMakeFiles\One-Object.dir
   OBJECT_FILE_DIR = exemple\OneObject\CMakeFiles\One-Object.dir\__\__\scripting-api\src
-  TARGET_COMPILE_PDB = exemple\OneObject\CMakeFiles\One-Object.dir\
-  TARGET_PDB = C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.pdb
 
 
 # =============================================================================
@@ -102,24 +96,23 @@ build exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/script
 
 
 #############################################
-# Link the executable C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.exe
+# Link the executable C:\Users\babal\source\repos\ScriptingAPI\exemple\OneObject\One-Object.exe
 
-build C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/One-Object.exe: CXX_EXECUTABLE_LINKER__One-Object_ exemple/OneObject/CMakeFiles/One-Object.dir/src/main.cpp.obj exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/project.cpp.obj exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/script.cpp.obj | scripting-api/libScripting-API.a || scripting-api/libScripting-API.a
+build C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/One-Object.exe: CXX_EXECUTABLE_LINKER__One-Object_ exemple/OneObject/CMakeFiles/One-Object.dir/src/main.cpp.obj exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/project.cpp.obj exemple/OneObject/CMakeFiles/One-Object.dir/__/__/scripting-api/src/script.cpp.obj | scripting-api/libScripting-API.a || scripting-api/libScripting-API.a
   LINK_LIBRARIES = scripting-api/libScripting-API.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = exemple\OneObject\CMakeFiles\One-Object.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exemple\OneObject\CMakeFiles\One-Object.dir\
-  TARGET_FILE = C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.exe
+  TARGET_FILE = C:\Users\babal\source\repos\ScriptingAPI\exemple\OneObject\One-Object.exe
   TARGET_IMPLIB = exemple\OneObject\libOne-Object.dll.a
-  TARGET_PDB = C:\Users\e.chaix\Desktop\ScriptingAPI\exemple\OneObject\One-Object.pdb
+  TARGET_PDB = One-Object.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build exemple/OneObject/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build\exemple\OneObject && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build\exemple\OneObject && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -130,7 +123,7 @@ build exemple/OneObject/edit_cache: phony exemple/OneObject/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build exemple/OneObject/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build\exemple\OneObject && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\e.chaix\Desktop\ScriptingAPI -BC:\Users\e.chaix\Desktop\ScriptingAPI\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build\exemple\OneObject && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\babal\source\repos\ScriptingAPI -BC:\Users\babal\source\repos\ScriptingAPI\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -139,7 +132,7 @@ build exemple/OneObject/rebuild_cache: phony exemple/OneObject/CMakeFiles/rebuil
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/e.chaix/Desktop/ScriptingAPI/CMakeLists.txt
+# C:/Users/babal/source/repos/ScriptingAPI/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -151,21 +144,17 @@ build exemple/OneObject/rebuild_cache: phony exemple/OneObject/CMakeFiles/rebuil
 
 build cmake_object_order_depends_target_Scripting-API: phony || .
 
-build scripting-api/CMakeFiles/Scripting-API.dir/src/project.cpp.obj: CXX_COMPILER__Scripting-API_unscanned_ C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/src/project.cpp || cmake_object_order_depends_target_Scripting-API
+build scripting-api/CMakeFiles/Scripting-API.dir/src/project.cpp.obj: CXX_COMPILER__Scripting-API_unscanned_ C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/src/project.cpp || cmake_object_order_depends_target_Scripting-API
   DEP_FILE = scripting-api\CMakeFiles\Scripting-API.dir\src\project.cpp.obj.d
-  INCLUDES = -IC:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/include
+  INCLUDES = -IC:/Users/babal/source/repos/ScriptingAPI/scripting-api/include
   OBJECT_DIR = scripting-api\CMakeFiles\Scripting-API.dir
   OBJECT_FILE_DIR = scripting-api\CMakeFiles\Scripting-API.dir\src
-  TARGET_COMPILE_PDB = scripting-api\CMakeFiles\Scripting-API.dir\Scripting-API.pdb
-  TARGET_PDB = scripting-api\libScripting-API.pdb
 
-build scripting-api/CMakeFiles/Scripting-API.dir/src/script.cpp.obj: CXX_COMPILER__Scripting-API_unscanned_ C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/src/script.cpp || cmake_object_order_depends_target_Scripting-API
+build scripting-api/CMakeFiles/Scripting-API.dir/src/script.cpp.obj: CXX_COMPILER__Scripting-API_unscanned_ C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/src/script.cpp || cmake_object_order_depends_target_Scripting-API
   DEP_FILE = scripting-api\CMakeFiles\Scripting-API.dir\src\script.cpp.obj.d
-  INCLUDES = -IC:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/include
+  INCLUDES = -IC:/Users/babal/source/repos/ScriptingAPI/scripting-api/include
   OBJECT_DIR = scripting-api\CMakeFiles\Scripting-API.dir
   OBJECT_FILE_DIR = scripting-api\CMakeFiles\Scripting-API.dir\src
-  TARGET_COMPILE_PDB = scripting-api\CMakeFiles\Scripting-API.dir\Scripting-API.pdb
-  TARGET_PDB = scripting-api\libScripting-API.pdb
 
 
 # =============================================================================
@@ -179,16 +168,15 @@ build scripting-api/libScripting-API.a: CXX_STATIC_LIBRARY_LINKER__Scripting-API
   OBJECT_DIR = scripting-api\CMakeFiles\Scripting-API.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = scripting-api\CMakeFiles\Scripting-API.dir\Scripting-API.pdb
   TARGET_FILE = scripting-api\libScripting-API.a
-  TARGET_PDB = scripting-api\libScripting-API.pdb
+  TARGET_PDB = Scripting-API.a.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build scripting-api/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build\scripting-api && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build\scripting-api && C:\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -199,7 +187,7 @@ build scripting-api/edit_cache: phony scripting-api/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build scripting-api/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\e.chaix\Desktop\ScriptingAPI\build\scripting-api && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\e.chaix\Desktop\ScriptingAPI -BC:\Users\e.chaix\Desktop\ScriptingAPI\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\babal\source\repos\ScriptingAPI\build\scripting-api && C:\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\babal\source\repos\ScriptingAPI -BC:\Users\babal\source\repos\ScriptingAPI\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -209,9 +197,9 @@ build scripting-api/rebuild_cache: phony scripting-api/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
-build One-Object: phony C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/One-Object.exe
+build One-Object: phony C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/One-Object.exe
 
-build One-Object.exe: phony C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/One-Object.exe
+build One-Object.exe: phony C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/One-Object.exe
 
 build Scripting-API: phony scripting-api/libScripting-API.a
 
@@ -223,21 +211,21 @@ build libScripting-API.a: phony scripting-api/libScripting-API.a
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/e.chaix/Desktop/ScriptingAPI/build
+# Folder: C:/Users/babal/source/repos/ScriptingAPI/build
 
 build all: phony exemple/OneObject/all scripting-api/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/e.chaix/Desktop/ScriptingAPI/build/exemple/OneObject
+# Folder: C:/Users/babal/source/repos/ScriptingAPI/build/exemple/OneObject
 
-build exemple/OneObject/all: phony C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/One-Object.exe
+build exemple/OneObject/all: phony C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/One-Object.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/e.chaix/Desktop/ScriptingAPI/build/scripting-api
+# Folder: C:/Users/babal/source/repos/ScriptingAPI/build/scripting-api
 
 build scripting-api/all: phony scripting-api/libScripting-API.a
 
@@ -248,14 +236,14 @@ build scripting-api/all: phony scripting-api/libScripting-API.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/e.chaix/Desktop/ScriptingAPI/CMakeLists.txt C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/CMakeLists.txt C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/CMakeLists.txt C$:/mingw64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/mingw64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.4/CMakeCCompiler.cmake CMakeFiles/3.30.4/CMakeCXXCompiler.cmake CMakeFiles/3.30.4/CMakeRCCompiler.cmake CMakeFiles/3.30.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/babal/source/repos/ScriptingAPI/CMakeLists.txt C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/CMakeLists.txt C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/CMakeLists.txt C$:/mingw64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.4/CMakeCCompiler.cmake CMakeFiles/3.30.4/CMakeCXXCompiler.cmake CMakeFiles/3.30.4/CMakeRCCompiler.cmake CMakeFiles/3.30.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/e.chaix/Desktop/ScriptingAPI/CMakeLists.txt C$:/Users/e.chaix/Desktop/ScriptingAPI/exemple/OneObject/CMakeLists.txt C$:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api/CMakeLists.txt C$:/mingw64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/mingw64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/mingw64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/mingw64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.4/CMakeCCompiler.cmake CMakeFiles/3.30.4/CMakeCXXCompiler.cmake CMakeFiles/3.30.4/CMakeRCCompiler.cmake CMakeFiles/3.30.4/CMakeSystem.cmake: phony
+build C$:/Users/babal/source/repos/ScriptingAPI/CMakeLists.txt C$:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/CMakeLists.txt C$:/Users/babal/source/repos/ScriptingAPI/scripting-api/CMakeLists.txt C$:/mingw64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/mingw64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.4/CMakeCCompiler.cmake CMakeFiles/3.30.4/CMakeCXXCompiler.cmake CMakeFiles/3.30.4/CMakeRCCompiler.cmake CMakeFiles/3.30.4/CMakeSystem.cmake: phony
 
 
 #############################################

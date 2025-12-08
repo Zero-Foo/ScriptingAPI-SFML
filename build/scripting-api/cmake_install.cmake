@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/e.chaix/Desktop/ScriptingAPI/scripting-api
+# Install script for directory: C:/Users/babal/source/repos/ScriptingAPI/scripting-api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

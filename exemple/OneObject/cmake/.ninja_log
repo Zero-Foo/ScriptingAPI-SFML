@@ -1,0 +1,7 @@
+# ninja log v6
+119	251	7869322333365438	C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/Project/build/libS_API.dll.a	9322d5614674d259
+28	522	7869365998055435	CMakeFiles/S_API.dir/scripts/Player.cpp.obj	6c8993efa7796087
+33	127	7869365998115440	CMakeFiles/S_API.dir/function_exporter.cpp.obj	c0353f76072e9ae3
+119	251	7869322333365438	libS_API.dll	9322d5614674d259
+522	660	7869366004235467	libS_API.dll.a	23f6c1da7c3b154b
+522	660	7869366004235467	C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/Project/build/libS_API.dll	23f6c1da7c3b154b

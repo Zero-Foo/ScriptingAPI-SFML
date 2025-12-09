@@ -1,8 +1,0 @@
-C:/Users/babal/source/repos/ScriptingAPI/build/CMakeFiles/edit_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/CMakeFiles/rebuild_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/exemple/OneObject/CMakeFiles/One-Object.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/exemple/OneObject/CMakeFiles/edit_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/exemple/OneObject/CMakeFiles/rebuild_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/scripting-api/CMakeFiles/Scripting-API.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/scripting-api/CMakeFiles/edit_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/build/scripting-api/CMakeFiles/rebuild_cache.dir

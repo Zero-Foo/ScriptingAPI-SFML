@@ -13,6 +13,8 @@ Script::Script(const std::string &_name, Project* _project)
 Script &Script::create()
 {
     hPath = ("./"+project->getName()+"/scripts/"+name+".h");
+    std::cout << "FilePath :: " << std::endl;
+    std::cout << ("./"+project->getName()+"/scripts/"+name+".h") << std::endl;
     if(std::filesystem::exists(hPath)){
         std::ofstream hFile(hPath);
         hFile.clear();
@@ -157,11 +159,27 @@ void Script::build()
 void Script::prepareToExport()
 {
     if(std::filesystem::exists(("./"+project->getName()+"/function_exporter.h"))){
-        std::ofstream exportFile(("./"+project->getName()+"/function_exporter.h").c_str(), std::ios_base::app);
-        exportFile << std::endl;
-        for(auto c : classes)
-            exportFile << "CREATEOBJECT(" << c << ")";
-        exportFile.close();
+        std::string buffer;
+        {
+            std::ifstream exportFile(("./"+project->getName()+"/function_exporter.h").c_str());
+            std::string line;
+            while(std::getline(exportFile, line)){
+                if(line == "#pragma once"){
+                    line+=("\n#include <" + name +".h>");
+                }
+                buffer+= (line+"\n");
+            }
+            exportFile.close();
+        }
+        {
+            std::ofstream exportFile(("./"+project->getName()+"/function_exporter.h").c_str());
+            exportFile << buffer;
+            exportFile << std::endl;
+            for(auto c : classes)
+                exportFile << "CREATEOBJECT(" << c << ")";
+            exportFile.close();
+        }
+        
     }else{
         std::cerr << "[ERROR] : " << ("./"+project->getName()+"/function_exporter.h") << " not found" << std::endl;
     }

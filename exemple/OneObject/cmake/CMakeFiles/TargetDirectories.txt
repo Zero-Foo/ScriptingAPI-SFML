@@ -1,3 +1,0 @@
-C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/cmake/CMakeFiles/S_API.dir
-C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/cmake/CMakeFiles/edit_cache.dir
-C:/Users/babal/source/repos/ScriptingAPI/exemple/OneObject/cmake/CMakeFiles/rebuild_cache.dir

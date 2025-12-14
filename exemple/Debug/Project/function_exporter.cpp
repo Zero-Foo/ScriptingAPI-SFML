@@ -10,11 +10,11 @@ __declspec(dllexport) void start(Object *object)
     object->start();
 }
 
-extern "C" __declspec(dllexport) void update(Object* object){
-    object->update();
+extern "C" __declspec(dllexport) void update(Object* object, float dt){
+    object->update(dt);
 }
 
-extern "C" __declspec(dllexport) void render(Object* object){
-    object->render();
+extern "C" __declspec(dllexport) void render(Object* object, sf::RenderTarget& target){
+    object->draw(target);
 }
 

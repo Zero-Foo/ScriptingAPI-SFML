@@ -1,11 +1,57 @@
 #ifndef __OBJECT_H__
 #define __OBJECT_H__
 
-class Object{
+#include <SFML/System/Vector2.hpp>
+#include <SFML/Graphics/RenderTarget.hpp>
+
+#include <windows.h>
+
+#include <concepts>
+#include <string>
+
+class Object
+{
     public:
+        Object() = default;
+        Object(std::string _name) : name(_name){};
+        Object(Object& b){
+            name = b.name;
+            position = b.position;
+            size = b.size;
+            isScripted = b.isScripted;
+        }
+        Object(const Object& b){
+            name = b.name;
+            position = b.position;
+            size = b.size;
+            isScripted = b.isScripted;
+        }
+        ~Object() = default;
+
         virtual void start() = 0;
-        virtual void update() = 0;
-        virtual void render() = 0;
+        virtual void update(float dt) = 0;
+        virtual void draw(sf::RenderTarget& target) = 0;
+
+    public:
+        Object& operator=(Object& b){
+            name = b.name;
+            position = b.position;
+            size = b.size;
+            isScripted = b.isScripted;
+            return *this;
+        }
+        Object& operator=(const Object& b){
+            name = b.name;
+            position = b.position;
+            size = b.size;
+            isScripted = b.isScripted;
+            return *this;
+        }
+    public:
+        std::string name;
+        sf::Vector2f position;
+        sf::Vector2f size;
+        bool isScripted = false;
 };
 
 #endif

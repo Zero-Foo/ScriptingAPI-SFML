@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLConfig.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLConfigVersion.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets-debug.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets-release.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLGraphicsSharedTargets.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLSystemSharedTargets-debug.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLSystemSharedTargets-release.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLSystemSharedTargets.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLWindowSharedTargets-debug.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLWindowSharedTargets-release.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/vcpkg_installed/x64-windows/share/sfml/SFMLWindowSharedTargets.cmake
+C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/scripting-api/CMakeLists.txt

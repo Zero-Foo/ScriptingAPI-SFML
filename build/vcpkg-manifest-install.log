@@ -1,0 +1,28 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages are already installed:
+  * brotli:x64-windows@1.2.0 -- git+https://github.com/microsoft/vcpkg@0fb79bb13588702a9e06057745b4aed95ce5c861
+  * bzip2[core,tool]:x64-windows@1.0.8#6 -- git+https://github.com/microsoft/vcpkg@2d029da682847c5ebdc54e4dbea001331a02207e
+  * egl-registry:x64-windows@2024-01-25 -- git+https://github.com/microsoft/vcpkg@d883db43133dd223c4ffdbef4193943f6784d43a
+  * freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 -- git+https://github.com/microsoft/vcpkg@8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2
+  * libflac[core,stack-protector]:x64-windows@1.5.0 -- git+https://github.com/microsoft/vcpkg@1b83f01536820e062681fe33109e44bb3f597aca
+  * libogg:x64-windows@1.3.6#1 -- git+https://github.com/microsoft/vcpkg@0631c72b35b0e169220b9c0fa9a6af4b229268cb
+  * libpng:x64-windows@1.6.50 -- git+https://github.com/microsoft/vcpkg@54b6eefbef1cb0f477c6eb54e2236badd140feea
+  * libvorbis:x64-windows@1.3.7#4 -- git+https://github.com/microsoft/vcpkg@149b8037ad8023f0f1b130616cf1a90238083cb0
+  * miniaudio:x64-windows@0.11.23 -- git+https://github.com/microsoft/vcpkg@a61df2a6c638fea68c6ad25c979bac76c33b29af
+  * opengl:x64-windows@2022-12-04#3 -- git+https://github.com/microsoft/vcpkg@c3ae71738f88449ebcd781cef60d9a253fa091d4
+  * opengl-registry:x64-windows@2024-02-10#1 -- git+https://github.com/microsoft/vcpkg@22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+    sfml[audio,core,graphics,network,window]:x64-windows@3.0.2 -- git+https://github.com/microsoft/vcpkg@ffed70e09662f9b535761716ea9b9623a461b9df
+  * stb:x64-windows@2024-07-29#1 -- git+https://github.com/microsoft/vcpkg@c362152d1d02973e7b1ce777960f8a6876656560
+  * vcpkg-cmake:x64-windows@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * zlib:x64-windows@1.3.1 -- git+https://github.com/microsoft/vcpkg@3f05e04b9aededb96786a911a16193cdb711f0c9
+The package sfml provides CMake targets:
+
+    find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE SFML::Network SFML::Graphics SFML::Window SFML::Audio SFML::System)
+
+    # If you want SFML to provide an implementation of main():
+    target_link_libraries(main PRIVATE SFML::Main)
+
+All requested installations completed successfully in: 1.49 ms

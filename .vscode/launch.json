@@ -5,12 +5,12 @@
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\exemple\\OneObject\\One-Object.exe",
+            "program": "${workspaceFolder}\\exemple\\Debug\\MSVC.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}\\exemple\\OneObject\\",
+            "cwd": "${workspaceFolder}\\exemple\\Debug",
             "environment": [],
-            "console": "externalTerminal"
+            "console": "internalConsole"
         },
     ]
 }

@@ -20,26 +20,26 @@ int main(){
     project.create();
 
     // Ne pas toucher a part si on veut reset les script
-    // Script playerScript("Player", &project);
-    // playerScript.registerClass("Player")
-    //             .addInclude("object.h")
-    //             .addMethodeToClass("Player","start()")
-    //             .addMethodeToClass("Player","update()")
-    //             .addMethodeToClass("Player","render()")
-    //             .build();
+    Script playerScript("Player", &project);
+    playerScript.registerClass("Player")
+                .addInclude("object.h")
+                .addMethodeToClass("Player","start()")
+                .addMethodeToClass("Player","update(float dt)")
+                .addMethodeToClass("Player","render(sf::RenderTarget& target)")
+                .build();
 
-    // playerScript.prepareToExport();
+    playerScript.prepareToExport();
 
-    // Script playerScript("Inventory", &project);
-    // playerScript.create()
-    //             .registerClass("Inventory")
-    //             .addInclude("object.h")
-    //             .addMethodeToClass("Inventory","start()")
-    //             .addMethodeToClass("Inventory","update()")
-    //             .addMethodeToClass("Inventory","render()")
-    //             .build();
+    Script invScript("Inventory", &project);
+    invScript.create()
+                .registerClass("Inventory")
+                .addInclude("object.h")
+                .addMethodeToClass("Inventory","start()")
+                .addMethodeToClass("Inventory","update(float dt)")
+                .addMethodeToClass("Inventory","render(sf::RenderTarget& target)")
+                .build();
 
-    // playerScript.prepareToExport();
+    invScript.prepareToExport();
 
     project.build(); // Compiler les scripts en dll
 

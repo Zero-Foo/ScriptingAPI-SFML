@@ -26,8 +26,8 @@ Project& Project::create()
 
 void Project::build()
 {
-    std::system("cmake -G Ninja -S ./Project -B cmake");
-    std::system("ninja -C cmake");
+    std::system(("cmake -G \"Visual Studio 17 2022\" -S ./"+name+" -B build -DCMAKE_TOOLCHAIN_FILE=\"C:\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\"").c_str());
+    std::system("cmake --build build");
 }
 
 std::string Project::getName()

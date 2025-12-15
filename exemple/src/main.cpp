@@ -19,31 +19,32 @@ int main(){
     Project project("./", "Project");
     project.create();
 
-    // Ne pas toucher a part si on veut reset les script
-    Script playerScript("Player", &project);
-    playerScript.registerClass("Player")
-                .addInclude("object.h")
-                .addMethodeToClass("Player","start()")
-                .addMethodeToClass("Player","update(float dt)")
-                .addMethodeToClass("Player","render(sf::RenderTarget& target)")
-                .build();
+    // // Ne pas toucher a part si on veut reset les script
+    // Script playerScript("Player", &project);
+    // playerScript.create()
+    //             .registerClass("Player")
+    //             .addInclude("object.h")
+    //             .addMethodeToClass("Player","start()")
+    //             .addMethodeToClass("Player","update(float dt)")
+    //             .addMethodeToClass("Player","draw(sf::RenderTarget& target)")
+    //             .build();
 
-    playerScript.prepareToExport();
+    // playerScript.prepareToExport();
 
-    Script invScript("Inventory", &project);
-    invScript.create()
-                .registerClass("Inventory")
-                .addInclude("object.h")
-                .addMethodeToClass("Inventory","start()")
-                .addMethodeToClass("Inventory","update(float dt)")
-                .addMethodeToClass("Inventory","render(sf::RenderTarget& target)")
-                .build();
+    // Script invScript("Inventory", &project);
+    // invScript.create()
+    //             .registerClass("Inventory")
+    //             .addInclude("object.h")
+    //             .addMethodeToClass("Inventory","start()")
+    //             .addMethodeToClass("Inventory","update(float dt)")
+    //             .addMethodeToClass("Inventory","draw(sf::RenderTarget& target)")
+    //             .build();
 
-    invScript.prepareToExport();
+    // invScript.prepareToExport();
 
     project.build(); // Compiler les scripts en dll
 
-    PluginObjectManager pluginManager("./Project/build/libS_API.dll");
+    PluginObjectManager pluginManager("./Project/build/Debug/S_API.dll");
     pluginManager.addObjectCreator("createPlayer");
     pluginManager.addObjectCreator("createInventory");
 

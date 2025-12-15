@@ -2,21 +2,19 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/build")
 
-find_package(SFML 3 COMPONENTS Graphics Window System CONFIG REQUIRED)
+add_library(S_API SHARED)
 
-project(S_API)
-
-add_library(${PROJECT_NAME} SHARED)
+find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
 file(GLOB_RECURSE SRC "${CMAKE_CURRENT_SOURCE_DIR}/scripts/*.cpp")
-target_sources(${PROJECT_NAME} PUBLIC ${SRC} "${CMAKE_CURRENT_SOURCE_DIR}/function_exporter.cpp")
+target_sources(S_API PUBLIC ${SRC} "${CMAKE_CURRENT_SOURCE_DIR}/function_exporter.cpp")
 
-target_include_directories(${PROJECT_NAME} PUBLIC 
+target_include_directories(S_API PUBLIC 
     "${CMAKE_CURRENT_SOURCE_DIR}"
     "${CMAKE_CURRENT_SOURCE_DIR}/scripts"
 )
 
-target_link_libraries(Scripting-API PUBLIC
+target_link_libraries(S_API PUBLIC
     SFML::Graphics
     SFML::Window
     SFML::System

@@ -1,5 +1,0 @@
-C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/exemple/CMakeFiles/MSVC.dir
-C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/exemple/CMakeFiles/ALL_BUILD.dir
-C:/Users/babal/Desktop/Project/ScriptingAPI-SFML/build/scripting-api/CMakeFiles/Scripting-API.dir

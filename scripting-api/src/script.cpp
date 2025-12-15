@@ -121,13 +121,8 @@ void Script::build()
             //Methode
             for(auto methode : methodes[i]){
                 hFile << "\tvoid " << methode;
-                #ifndef SFML_FOUND
-                if(methode == "update()" || methode == "start()" || methode == "render()")
-                    hFile << " override";
-                #else
-                if(methode == "update(float dt)" || methode == "start()" || methode == "render(sf::RenderTarget& target)")
-                    hFile << " override";
-                #endif                
+                if(methode == "update(float dt)" || methode == "start()" || methode == "draw(sf::RenderTarget& target)")
+                    hFile << " override";        
                 hFile << ";" << std::endl;
             }
 

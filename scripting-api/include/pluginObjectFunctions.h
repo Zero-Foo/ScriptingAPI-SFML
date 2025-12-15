@@ -11,19 +11,12 @@
 #define CREATEPOINTERFUNC(FUNC_NAME, RETURN_TYPE, ...) typedef RETURN_TYPE (*FUNC_NAME)(__VA_ARGS__)
 #define CREATEOBJECTPOINTERFUNC(OBJNAME, ...) CREATEPOINTERFUNC(create##OBJNAME, Object*, __VA_ARGS__)
 
-#ifndef SFML_FOUND
-CREATEPOINTERFUNC(functionObject, Object*);
-CREATEPOINTERFUNC(deleteObject, void, Object*);
-CREATEPOINTERFUNC(startObject, void, Object*);
-CREATEPOINTERFUNC(updateObject, void, Object*);
-CREATEPOINTERFUNC(renderObject, void, Object*);
-#else
 CREATEPOINTERFUNC(functionObject, Object*);
 CREATEPOINTERFUNC(deleteObject, void, Object*);
 CREATEPOINTERFUNC(startObject, void, Object*);
 CREATEPOINTERFUNC(updateObject, void, Object*, float dt);
 CREATEPOINTERFUNC(renderObject, void, Object*, sf::RenderTarget& target);
-#endif
+
 
 class ObjectCreationFunc{
     std::unordered_map<std::string, functionObject> createFuncs;
@@ -47,19 +40,10 @@ class PluginObjectManager{
         void addObjectCreator(const std::string& funcName);
         functionObject getObjectCreator(const std::string& funcName);
 
-        #ifndef SFML_FOUND
-        void del(Object* obj);
-        void start(Object* obj);
-        void update(Object* obj);
-        void render(Object* obj);
-        #else
         void del(Object* obj);
         void start(Object* obj);
         void update(Object* obj, float dt);
-        void render(Object* obj, sf::RenderTarget& target);
-        #endif
-
-        
+        void render(Object* obj, sf::RenderTarget& target);        
 
     private:
         HMODULE plugin;

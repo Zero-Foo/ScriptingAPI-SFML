@@ -10,6 +10,9 @@ void Player::update(float dt){
 }
 
 void Player::draw(sf::RenderTarget& target){
+    shape.setSize({50, 50});
+    shape.setFillColor(sf::Color::Red);
 
+    target.draw(shape);
 }
 

@@ -1,6 +1,4 @@
 #pragma once
-#include <Player.h>
-#include <Inventory.h>
 
 #include <object.h>
 
@@ -12,6 +10,3 @@ extern "C" __declspec(dllexport) void deleteObject(Object* object);
 extern "C" __declspec(dllexport) void start(Object* object);
 extern "C" __declspec(dllexport) void update(Object* object, float dt);
 extern "C" __declspec(dllexport) void render(Object* object, sf::RenderTarget& target);
-
-CREATEOBJECT(Player)
-CREATEOBJECT(Inventory)

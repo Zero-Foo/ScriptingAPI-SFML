@@ -4,18 +4,15 @@
 
 #include <pluginObjectFunctions.h>
 
+#include <SFML/Graphics/RenderWindow.hpp>
+
 #include <windows.h>
 
 #include <iostream>
 
-CREATEPOINTERFUNC(Player, Object*);
-CREATEPOINTERFUNC(Inventory, Object*);
-typedef void(*deleteObject)(Object*);
-typedef void(*start)(Object*);
-typedef void(*update)(Object*);
-typedef void(*render)(Object*);
-
 int main(){
+    sf::RenderWindow window(sf::VideoMode({800, 600}), "Exemple");
+
     Project project("./", "Project");
     project.create();
 
@@ -57,12 +54,25 @@ int main(){
         inventory = creator();
 
     pluginManager.start(player);
-    pluginManager.update(player);
-    pluginManager.render(player);
-
     pluginManager.start(inventory);
-    pluginManager.update(inventory);
-    pluginManager.render(inventory);
+    
+    while(window.isOpen()){
+        while(const auto event = window.pollEvent()){
+            if(event->is<sf::Event::Closed>()){
+                window.close();
+            }
+        }
+        pluginManager.update(player, 0);
+        pluginManager.update(inventory, 0);
+
+        window.clear();
+
+        pluginManager.render(player, window);
+        pluginManager.render(inventory, window);
+
+        window.display();
+    }
+
 
     pluginManager.del(player);
     pluginManager.del(inventory);

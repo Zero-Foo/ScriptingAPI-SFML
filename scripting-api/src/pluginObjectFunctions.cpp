@@ -37,19 +37,6 @@ void PluginObjectManager::start(Object *obj)
         startObj(obj);
 }
 
-#ifndef SFML_FOUND
-void PluginObjectManager::update(Object *obj)
-{
-    if(updateObj)
-        updateObj(obj);
-}
-
-void PluginObjectManager::render(Object *obj)
-{
-    if(renderObj)
-        renderObj(obj);
-}
-#else
 void PluginObjectManager::update(Object *obj, float dt)
 {
     if(updateObj)
@@ -61,4 +48,3 @@ void PluginObjectManager::render(Object *obj, sf::RenderTarget& target)
     if(renderObj)
         renderObj(obj, target);
 }
-#endif
